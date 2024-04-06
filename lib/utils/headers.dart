@@ -1,0 +1,12 @@
+export 'package:flutter/material.dart';
+export '../myapp.dart';
+export 'package:festivalpost_app/view/splash_screen/splash_screen.dart';
+export 'package:festivalpost_app/utils/routes.dart';
+export 'package:festivalpost_app/view/home_page/home_page.dart';
+export '../modals/festival_modal.dart';
+export 'package:festivalpost_app/utils/appdata.dart';
+export 'package:carousel_slider/carousel_slider.dart';
+export 'package:festivalpost_app/utils/globals.dart';
+export 'package:swipe_deck/swipe_deck.dart';
+export 'package:vertical_card_pager/vertical_card_pager.dart';
+export 'package:festivalpost_app/utils/fonts_enum.dart';
