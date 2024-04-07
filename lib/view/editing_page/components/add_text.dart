@@ -61,7 +61,7 @@ Align addText({
                       : Globals.instance.fsize--;
                   getSetState();
                 },
-                child: const Icon(Icons.remove),
+                child: const Icon(Icons.remove, color: Colors.black),
               ),
               const SizedBox(width: 10),
               Text(Globals.instance.fsize.toString()),
@@ -73,7 +73,7 @@ Align addText({
                       : Globals.instance.fsize++;
                   getSetState();
                 },
-                child: const Icon(Icons.add),
+                child: const Icon(Icons.add, color: Colors.black),
               ),
             ],
           ),

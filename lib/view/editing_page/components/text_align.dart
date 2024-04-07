@@ -5,7 +5,7 @@ Column textAlign({
 }) {
   return Column(
     children: [
-      Align(
+      const Align(
         alignment: Alignment.centerLeft,
         child: Text(
           'Text Alignment',
@@ -24,7 +24,7 @@ Column textAlign({
               Globals.instance.t_align = TextAlign.left;
               getSetState();
             },
-            child: Icon(Icons.format_align_left),
+            child: Icon(Icons.format_align_left, color: Colors.black),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(
                 Color(0xffFEC7B4),
@@ -36,7 +36,7 @@ Column textAlign({
               Globals.instance.t_align = TextAlign.center;
               getSetState();
             },
-            child: Icon(Icons.format_align_center),
+            child: Icon(Icons.format_align_center, color: Colors.black),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(
                 Color(0xffFEC7B4),
@@ -48,7 +48,7 @@ Column textAlign({
               Globals.instance.t_align = TextAlign.right;
               getSetState();
             },
-            child: Icon(Icons.format_align_right),
+            child: Icon(Icons.format_align_right, color: Colors.black),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(
                 Color(0xffFEC7B4),
