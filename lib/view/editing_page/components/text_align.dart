@@ -19,40 +19,97 @@ Column textAlign({
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          ElevatedButton(
-            onPressed: () {
-              Globals.instance.t_align = TextAlign.left;
-              getSetState();
-            },
-            child: Icon(Icons.format_align_left, color: Colors.black),
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(
-                Color(0xffFEC7B4),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(25),
+              boxShadow: [
+                const BoxShadow(
+                  color: Color(0xfffabba5),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: Offset(2, 2),
+                ),
+                BoxShadow(
+                  color: Colors.white.withOpacity(0.7),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: const Offset(-2, -2),
+                )
+              ],
+            ),
+            child: ElevatedButton(
+              onPressed: () {
+                Globals.instance.t_align = TextAlign.left;
+                getSetState();
+              },
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(
+                  const Color(0xffFFF3C7),
+                ),
               ),
+              child: const Icon(Icons.format_align_left, color: Colors.black),
             ),
           ),
-          ElevatedButton(
-            onPressed: () {
-              Globals.instance.t_align = TextAlign.center;
-              getSetState();
-            },
-            child: Icon(Icons.format_align_center, color: Colors.black),
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(
-                Color(0xffFEC7B4),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(25),
+              boxShadow: [
+                const BoxShadow(
+                  color: Color(0xfffabba5),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: Offset(2, 2),
+                ),
+                BoxShadow(
+                  color: Colors.white.withOpacity(0.7),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: const Offset(-2, -2),
+                )
+              ],
+            ),
+            child: ElevatedButton(
+              onPressed: () {
+                Globals.instance.t_align = TextAlign.center;
+                getSetState();
+              },
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(
+                  const Color(0xffFFF3C7),
+                ),
               ),
+              child: const Icon(Icons.format_align_center, color: Colors.black),
             ),
           ),
-          ElevatedButton(
-            onPressed: () {
-              Globals.instance.t_align = TextAlign.right;
-              getSetState();
-            },
-            child: Icon(Icons.format_align_right, color: Colors.black),
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(
-                Color(0xffFEC7B4),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(25),
+              boxShadow: [
+                const BoxShadow(
+                  color: Color(0xfffabba5),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: Offset(2, 2),
+                ),
+                BoxShadow(
+                  color: Colors.white.withOpacity(0.7),
+                  // spreadRadius: -3,
+                  blurRadius: 3,
+                  offset: const Offset(-2, -2),
+                )
+              ],
+            ),
+            child: ElevatedButton(
+              onPressed: () {
+                Globals.instance.t_align = TextAlign.right;
+                getSetState();
+              },
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(
+                  const Color(0xffFFF3C7),
+                ),
               ),
+              child: const Icon(Icons.format_align_right, color: Colors.black),
             ),
           ),
         ],

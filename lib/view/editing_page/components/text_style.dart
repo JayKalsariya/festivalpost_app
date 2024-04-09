@@ -18,8 +18,22 @@ GridView textStyle({
                 },
                 child: Container(
                   decoration: BoxDecoration(
-                    border: Border.all(),
+                    border:
+                        Globals.instance.font == e.name ? Border.all() : null,
+                    color: const Color(0xffFFF3C7),
                     borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      const BoxShadow(
+                        color: Color(0xfffabba5),
+                        blurRadius: 3,
+                        offset: Offset(3, 3),
+                      ),
+                      BoxShadow(
+                        color: Colors.white.withOpacity(0.7),
+                        blurRadius: 3,
+                        offset: const Offset(-3, -3),
+                      )
+                    ],
                   ),
                   child: Align(
                     alignment: Alignment.center,

@@ -2,7 +2,7 @@ import 'package:festivalpost_app/utils/headers.dart';
 
 Column borderRadius({
   required void Function() getSetState,
-}){
+}) {
   return Column(
     children: [
       const Align(
@@ -17,6 +17,8 @@ Column borderRadius({
       ),
       const SizedBox(height: 10),
       Slider(
+        activeColor: const Color(0xffFEC7B4),
+        inactiveColor: Colors.white,
         value: Globals.instance.radius,
         onChanged: (value) {
           Globals.instance.radius = value;

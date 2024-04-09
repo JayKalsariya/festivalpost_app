@@ -12,7 +12,7 @@ RepaintBoundary getPost({
       height: 350,
       width: 350,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: const Color(0xffFFF3C7),
         borderRadius: BorderRadius.circular(Globals.instance.radius),
         image: DecorationImage(
           image: NetworkImage(

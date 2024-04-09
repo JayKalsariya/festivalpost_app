@@ -6,47 +6,178 @@ Row getTool({
   return Row(
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
-      IconButton.outlined(
-        onPressed: () {
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(0);
           getSetState();
         },
-        icon: Icon(Icons.filter_frames_rounded),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.filter_frames_rounded),
+          ),
+        ),
       ),
-      IconButton.outlined(
-        onPressed: () {
+      const SizedBox(width: 0.5),
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(1);
           getSetState();
         },
-        icon: Icon(Icons.abc_rounded),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.abc_rounded),
+          ),
+        ),
       ),
-      IconButton.outlined(
-        onPressed: () {
+      const SizedBox(width: 0.5),
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(2);
           getSetState();
         },
-        icon: const Icon(Icons.text_fields_outlined),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.text_fields_outlined),
+          ),
+        ),
       ),
-      IconButton.outlined(
-        onPressed: () {
+      const SizedBox(width: 0.5),
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(3);
           getSetState();
         },
-        icon: const Icon(Icons.border_outer_rounded),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.border_outer_rounded),
+          ),
+        ),
       ),
-      IconButton.outlined(
-        onPressed: () {
+      const SizedBox(width: 0.5),
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(4);
           getSetState();
         },
-        icon: const Icon(Icons.color_lens_rounded),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.color_lens_rounded),
+          ),
+        ),
       ),
-      IconButton.outlined(
-        onPressed: () {
+      const SizedBox(width: 0.5),
+      GestureDetector(
+        onTap: () {
           Globals.instance.onItemTapped(5);
           getSetState();
         },
-        icon: const Icon(Icons.align_horizontal_center_rounded),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              const BoxShadow(
+                color: Color(0xfffabba5),
+                blurRadius: 3,
+                offset: Offset(3, 3),
+              ),
+              BoxShadow(
+                color: Colors.white.withOpacity(0.7),
+                blurRadius: 3,
+                offset: const Offset(-3, -3),
+              )
+            ],
+          ),
+          child: const CircleAvatar(
+            radius: 22,
+            backgroundColor: Color(0xffFFF3C7),
+            child: Icon(Icons.align_horizontal_center_rounded),
+          ),
+        ),
       ),
     ],
   );

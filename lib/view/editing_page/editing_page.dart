@@ -1,8 +1,6 @@
 import 'package:festivalpost_app/utils/headers.dart';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
-import 'package:festivalpost_app/utils/fonts_enum.dart';
-import 'package:festivalpost_app/utils/globals.dart';
 import 'package:festivalpost_app/view/editing_page/components/add_text.dart';
 import 'package:festivalpost_app/view/editing_page/components/appbar.dart';
 import 'package:festivalpost_app/view/editing_page/components/border.dart';
@@ -12,9 +10,7 @@ import 'package:festivalpost_app/view/editing_page/components/post_frame.dart';
 import 'package:festivalpost_app/view/editing_page/components/text_align.dart';
 import 'package:festivalpost_app/view/editing_page/components/text_color.dart';
 import 'package:festivalpost_app/view/editing_page/components/text_style.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
@@ -70,6 +66,10 @@ class _EditingPageState extends State<EditingPage> {
           Globals.instance.reset();
           setState(() {});
         },
+        getSetState: () {
+          getSetState();
+        },
+        context: context,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

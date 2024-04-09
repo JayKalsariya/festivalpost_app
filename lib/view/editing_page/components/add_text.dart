@@ -17,8 +17,20 @@ Align addText({
             height: 50,
             width: 200,
             decoration: BoxDecoration(
-              color: const Color(0xffFEC7B4),
+              color: const Color(0xffFFF3C7),
               borderRadius: BorderRadius.circular(10),
+              boxShadow: [
+                const BoxShadow(
+                  color: Color(0xfffabba5),
+                  blurRadius: 3,
+                  offset: Offset(3, 3),
+                ),
+                BoxShadow(
+                  color: Colors.white.withOpacity(0.7),
+                  blurRadius: 3,
+                  offset: const Offset(-3, -3),
+                )
+              ],
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -54,26 +66,70 @@ Align addText({
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              OutlinedButton(
-                onPressed: () {
-                  Globals.instance.fsize <= 14
-                      ? null
-                      : Globals.instance.fsize--;
-                  getSetState();
-                },
-                child: const Icon(Icons.remove, color: Colors.black),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    const BoxShadow(
+                      color: Color(0xfffabba5),
+                      blurRadius: 3,
+                      offset: Offset(3, 3),
+                    ),
+                    BoxShadow(
+                      color: Colors.white.withOpacity(0.7),
+                      blurRadius: 3,
+                      offset: const Offset(-3, -3),
+                    )
+                  ],
+                ),
+                child: FilledButton(
+                  onPressed: () {
+                    Globals.instance.fsize <= 14
+                        ? null
+                        : Globals.instance.fsize--;
+                    getSetState();
+                  },
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(
+                      const Color(0xffFFF3C7),
+                    ),
+                  ),
+                  child: const Icon(Icons.remove, color: Colors.black),
+                ),
               ),
               const SizedBox(width: 10),
               Text(Globals.instance.fsize.toString()),
               const SizedBox(width: 10),
-              OutlinedButton(
-                onPressed: () {
-                  Globals.instance.fsize >= 35
-                      ? null
-                      : Globals.instance.fsize++;
-                  getSetState();
-                },
-                child: const Icon(Icons.add, color: Colors.black),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    const BoxShadow(
+                      color: Color(0xfffabba5),
+                      blurRadius: 3,
+                      offset: Offset(3, 3),
+                    ),
+                    BoxShadow(
+                      color: Colors.white.withOpacity(0.7),
+                      blurRadius: 3,
+                      offset: const Offset(-3, -3),
+                    )
+                  ],
+                ),
+                child: FilledButton(
+                  onPressed: () {
+                    Globals.instance.fsize >= 35
+                        ? null
+                        : Globals.instance.fsize++;
+                    getSetState();
+                  },
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(
+                      const Color(0xffFFF3C7),
+                    ),
+                  ),
+                  child: const Icon(Icons.add, color: Colors.black),
+                ),
               ),
             ],
           ),

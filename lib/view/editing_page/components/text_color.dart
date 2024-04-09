@@ -25,6 +25,7 @@ Column textColor({
           children: [
             //Color Picker
             CircleAvatar(
+              backgroundColor: const Color(0xffFEC7B4),
               radius: 20,
               child: IconButton(
                 onPressed: () {
