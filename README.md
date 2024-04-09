@@ -1,4 +1,4 @@
-# Festival Post Maker: Celebrate Every Moment in Style!
+### Festival Post Maker: Celebrate Every Moment in Style!
 
 Welcome to **Festival Post Maker**, your ultimate companion for creating stunning and vibrant posts to celebrate every festival with flair and creativity. Whether it's Diwali, Christmas, Eid, or any other festive occasion, our app empowers you to craft eye-catching posts that capture the essence of the celebration.
 
@@ -31,28 +31,26 @@ With `Festival Post Maker`, every celebration becomes an opportunity to express 
 
 <img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/c5cebcec-5296-4f50-b554-656032704715" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/e67b8bba-00bf-4e11-ac3c-275138816f8a" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/d824bd98-e155-4340-bdbd-f382b969fc3b" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/43792cd1-94a6-41ba-8879-b4cd671da859" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/383ee9a5-c9e7-4900-9aea-525e661bdef2" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/5a3905fa-36fb-4825-b45c-dca9dab78c2b" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/780e7d4e-5d69-4dcc-beff-8b457697040c" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/eda5fe76-d9fc-4085-9057-f3cdbfd0c3eb" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/c636ddb8-0f43-42ee-b48a-70cfb31668fc" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/33a39b22-a6ab-49bb-9969-03e8ec94552a" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/965eba6a-342a-44f0-8a6b-00bd7bfb6f91" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/f85818b9-1e20-457c-8f44-daed8d3378ae" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/2d79ce50-bba7-4f8b-817f-ae82a94a347a" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/d74fdbf9-2a32-4ccd-8b57-6777d839ea42" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/470fc7df-d7c4-4194-a856-c8fc14271a4a" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/820900eb-0f09-47d5-861d-13ab530f4a34" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/95780b55-77e0-45cc-b45f-c2d8bade5563" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/e7b2699a-b774-4453-abe9-2cbb96674b47" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/8330cdfe-a39e-4760-931d-890c94047375" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/562ee323-756e-4fc2-a1e4-a5538b46357c" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/548d7273-a524-496b-b05e-10c2034929ab" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/933d7d4c-89ce-4a8f-994b-559f858eb77c" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/d02ce2c2-14b4-4bea-88ad-9ec42476db4a" width = "250">
 
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/115179c6-2914-4564-9c70-c2547a7eeae7" width = "250">
-
-<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/0d9cb3c8-fa05-4c3e-b0e6-74d52d998545" width = "250">
+<img src = "https://github.com/JayKalsariya/festivalpost_app/assets/141019761/adca0d25-ea48-4ec5-a96d-167c18fe739c" width = "250">
